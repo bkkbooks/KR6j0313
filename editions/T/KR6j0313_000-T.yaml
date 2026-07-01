@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0313/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說聖多羅菩薩經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1104.xml
+    old_id: T20n1104
+hash: sha256:0f8206717f1c1149f3552840b6e4989b769b03f179715ec2017e4d137f125575

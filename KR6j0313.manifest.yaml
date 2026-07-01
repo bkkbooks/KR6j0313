@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6j0313/v1
+canonical_location: https://kanripo.org/bkk/KR6j0313/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說聖多羅菩薩經
+  identifiers:
+    alt_id:
+    - T20n1104
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1104.xml
+    old_id: T20n1104
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0313_000.yaml, hash: 'sha256:0f8206717f1c1149f3552840b6e4989b769b03f179715ec2017e4d137f125575'}
+  - {seq: 1, filename: KR6j0313_001.yaml, hash: 'sha256:f32fb37e2c41bdd65bc0df6f7751211ce7969253dc75bc89df8acf9067ed8929'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0313_001.markers.yaml, hash: 'sha256:f2b3f73363cd1fe0435c25f4a4c280a8c7feeaa96d319440b0960c0082dd4f13'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0313_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2066
+  label: 佛說聖多羅菩薩經
+  type: juan
+  level: 1
+hash: sha256:0e19565cbdc1284f89bc659f301f32978d344734a0b657294e9510debaab7edf
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
