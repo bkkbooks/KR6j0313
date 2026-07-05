@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0313_000.yaml, hash: 'sha256:0f8206717f1c1149f3552840b6e4989b769b03f179715ec2017e4d137f125575'}
-  - {seq: 1, filename: KR6j0313_001.yaml, hash: 'sha256:f32fb37e2c41bdd65bc0df6f7751211ce7969253dc75bc89df8acf9067ed8929'}
+  - {seq: 1, filename: KR6j0313_001.yaml, hash: 'sha256:42193ce2b600bc40a8bbbe676a754f6e6acfe3f125c0208f876748c120743a0e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0313_001.markers.yaml, hash: 'sha256:f2b3f73363cd1fe0435c25f4a4c280a8c7feeaa96d319440b0960c0082dd4f13'}
+  - {seq: 0, role: markers, filename: assets/KR6j0313_000.markers.yaml, hash: 'sha256:9b3f20b6d9fdc6af90c12f98279e77b01ff4ad085cb640210da3ae8762cf57c9'}
+  - {seq: 1, role: markers, filename: assets/KR6j0313_001.markers.yaml, hash: 'sha256:3388fb7680cf4289afc5dff4b29f9a5c2fa954392961ce5f5df8b21c6d2c300d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說聖多羅菩薩經
   type: juan
   level: 1
-hash: sha256:0e19565cbdc1284f89bc659f301f32978d344734a0b657294e9510debaab7edf
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:6c87940772eb0bc9ac1145e462afcbb4e17648ff2e3bcf4326a8fdf7a2a24271
