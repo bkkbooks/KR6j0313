@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0313/v1
 canonical_location: https://kanripo.org/bkk/KR6j0313/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說聖多羅菩薩經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0313_000.yaml, hash: 'sha256:0f8206717f1c1149f3552840b6e4989b769b03f179715ec2017e4d137f125575'}
-  - {seq: 1, filename: KR6j0313_001.yaml, hash: 'sha256:42193ce2b600bc40a8bbbe676a754f6e6acfe3f125c0208f876748c120743a0e'}
+  - {seq: 1, filename: KR6j0313_001.yaml, hash: 'sha256:747fe282d8354140ef703d42f56c38dbfd34ef2b6bc2b22ee69627878c280a67'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0313_000.markers.yaml, hash: 'sha256:9b3f20b6d9fdc6af90c12f98279e77b01ff4ad085cb640210da3ae8762cf57c9'}
-  - {seq: 1, role: markers, filename: assets/KR6j0313_001.markers.yaml, hash: 'sha256:3388fb7680cf4289afc5dff4b29f9a5c2fa954392961ce5f5df8b21c6d2c300d'}
+  - {seq: 1, role: markers, filename: assets/KR6j0313_001.markers.yaml, hash: 'sha256:4f82abbbff49a98c006c81e6ee73f2f54a4c79bcf9eed8250fe0d02759716494'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 佛說聖多羅菩薩經
   type: juan
   level: 1
-hash: sha256:6c87940772eb0bc9ac1145e462afcbb4e17648ff2e3bcf4326a8fdf7a2a24271
+hash: sha256:06348c3e71f21d81b96181e7daa68734cd9d6e5d127d31ed2027c85f227f4c17
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
